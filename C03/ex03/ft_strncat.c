@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 22:46:04 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/07/28 23:33:07 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/07/29 18:59:33 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,6 @@ char	*ft_strncat(char *dest, char *src, unsigned int nb)
 		i++;
 		s++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }

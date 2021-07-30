@@ -6,7 +6,7 @@
 /*   By: lkrebs-l <lkrebs-l@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 01:34:34 by lkrebs-l          #+#    #+#             */
-/*   Updated: 2021/07/28 23:36:13 by lkrebs-l         ###   ########.fr       */
+/*   Updated: 2021/07/29 18:58:16 by lkrebs-l         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,5 +33,5 @@ char	*ft_strstr(char *str, char *to_find)
 			i++;
 		}
 	}
-	return (NULL);
+	return (0);
 }
